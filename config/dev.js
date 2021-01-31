@@ -8,5 +8,5 @@ module.exports = {
   stripePublishableKey: process.env.STRIPE_PUBLISHABLE_KEY,
   stripeSecretKey: process.env.STRIPE_SECRET_KEY,
   sendGridKey: process.env.SENDGRID_KEY,
-  redirectURI: "http:localhost:3000",
+  redirectURI: process.env.REDIRECT_URI,
 };
